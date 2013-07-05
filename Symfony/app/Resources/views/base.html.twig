@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        {% block stylesheets %}
+        <link href="{{asset('bundles/becashackcontrolf/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet" media="screen">
+         {% endblock %}
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+    </head>
+    <body>
+        {% block body %}{% endblock %}
+        {% block javascripts %}
+        <script src="{{asset('bundles/becashackcontrolf/bootstrap/js/bootstrap.min.js')}}"></script>
+{% endblock %}
+    </body>
+</html>

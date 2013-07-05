@@ -1,0 +1,5 @@
+becas_hack_control_f:
+    resource: "@BecasHackControlFBundle/Controller/"
+    type:     annotation
+    prefix:   /
+

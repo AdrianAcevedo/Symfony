@@ -1,0 +1,6 @@
+/Symfony/nbproject/private/
+/Symfony/app/cache/*
+/Symfony/app/logs/*
+*.php~
+/Symfony/app/config/parameters.yml
+/Symfony/composer.lock
